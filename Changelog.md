@@ -1,0 +1,1 @@
+- v1.0.0: Push notification when html tag recognized.

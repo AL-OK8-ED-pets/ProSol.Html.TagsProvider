@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ProSol.Html.TagsProvider</id>
+    <title>ProSol.Html.TagsProvider</title>
+    <version>2.0.0</version>
+    <authors>Alex Kozachenko</authors>
+    <owners>Alex Kozachenko</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <readme type="file">docs\Readme.md</readme>
+    <description>
+      TagsProvider is a tool for extracting HTML tags from a string, in event-driven way.
+      Helps to extract text, structured data, from a specific site. 
+    </description>
+    <dependencies>
+      <group targetFramework="net8.0" >
+        <dependency id="ProSol.Messaging" version="4.0.0" />
+      </group>
+    </dependencies>
+    <tags> tool extraction web html observer observer-pattern design-patterns fluent </tags>
+  </metadata>
+  <files>
+     <file src="bin\Release\net8.0\*.dll" target="lib\net8.0" />
+     <file src="..\Readme.md" target="docs\" />
+  </files>
+</package>

@@ -1,0 +1,54 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"tasks": {
+		"version": "2.0.0",
+		"presentation":{
+			"reveal": "silent"
+		},
+		"tasks": [
+			{
+				"label": "dotnet: build",
+				"type": "shell",
+				"command": "dotnet",
+				"args": [
+					"build",
+					"/property:GenerateFullPaths=true", 
+					"/consoleloggerparameters:NoSummary"
+				],
+				"problemMatcher": [
+					"$msCompile"
+				],
+				"group": {
+					"kind": "build",
+					"isDefault": true
+				},
+			},
+			{
+				"label": "dotnet: test",
+				"type": "shell",
+				"command": "dotnet",
+				"args": [
+					"test"					
+				],
+				"problemMatcher": [
+					"$msCompile"
+				],
+				"group": {
+					"kind": "test",
+					"isDefault": true
+				},
+			}
+		]
+	},
+	"extensions": {
+		"recommendations": [
+			"ms-dotnettools.vscode-dotnet-runtime",
+			"ms-dotnettools.csharp",
+			"ms-dotnettools.csdevkit",
+		]
+	}
+}

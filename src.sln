@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProSol.Html.Tests", "tests\ProSol.Html.Tests.csproj", "{2EF0FD35-7C6C-4CE7-8BA6-BE00FB7402FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProSol.Html", "src\ProSol.Html.csproj", "{24E53336-6607-4660-B194-297813769605}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2EF0FD35-7C6C-4CE7-8BA6-BE00FB7402FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EF0FD35-7C6C-4CE7-8BA6-BE00FB7402FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EF0FD35-7C6C-4CE7-8BA6-BE00FB7402FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EF0FD35-7C6C-4CE7-8BA6-BE00FB7402FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24E53336-6607-4660-B194-297813769605}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24E53336-6607-4660-B194-297813769605}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24E53336-6607-4660-B194-297813769605}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24E53336-6607-4660-B194-297813769605}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
